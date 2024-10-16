@@ -46,11 +46,15 @@ Although species information is unavailable, the features can help us cluster th
 
 - **Optimal Cluster Selection**: The Elbow Method was used to identify the optimal number of clusters. Based on the inertia values, the optimal number of clusters was determined to be `4`.
 
+    ![Elbow Method](https://github.com/MohamedMostafa259/ClusteringAntarcticPenguinSpecies/blob/main/visuals/Elbow%20Method.png)
+
 - **Model Training**: K-Means was applied to the scaled data to group the penguins into clusters.
 
 ### 3. Visualization
 
 Using t-SNE, the high-dimensional penguin data was reduced to two dimensions for easier visualization. This helps in gaining insights into how well the clustering algorithm has separated the penguins into distinct groups.
+
+![t-SNE Plot](https://github.com/MohamedMostafa259/ClusteringAntarcticPenguinSpecies/blob/main/visuals/t-SNE%20Plot.png)
 
 ### 4. Analysis of Clusters
 
